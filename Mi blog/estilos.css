@@ -31,3 +31,24 @@ h1 {
 .imag {
     text-align: center;
 }
+
+.imagenes {
+    margin: auto;
+
+
+}
+
+.th2 {
+    padding:50%;
+    width: 200px;
+    height: 200px;
+    
+}
+
+.td2 {
+ padding:50%;
+ width: 200px;
+ height: 200px;
+ 
+}
+
