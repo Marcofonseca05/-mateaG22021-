@@ -3,9 +3,31 @@ body {
     height: auto;
     width: auto;
     border: 1px solid black;
-    background-image:linear-gradient(red,White )
+    background-image:linear-gradient(rgb(136, 59, 59),White )
     
+}
+header {
+    background-image: linear-gradient(grey, grey);
 }
 .Menu {
     color: blanchedalmond;
+}
+
+.table {
+    background-color: blanchedalmond;
+}
+.th {
+    border: 2px;
+}
+
+img {
+    border-radius: 10px;
+}
+h1 {
+    background-image: linear-gradient(grey ,rgb(156, 76, 76));
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.imag {
+    text-align: center;
 }
