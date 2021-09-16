@@ -2,29 +2,60 @@ body {
     margin: auto;
     height: auto;
     width: auto;
-    border: 1px solid black;
-    background-image:linear-gradient(rgb(136, 59, 59),White )
-    
-}
-header {
-    background-image: linear-gradient(grey, grey);
-}
-.Menu {
-    color: blanchedalmond;
+    background-image:linear-gradient(rgb(58, 54, 54),White );
 }
 
+/* Barra de navegacion*/
+
+header {
+    text-align: center;
+     background-color: #333;
+     padding: 20px;      }
+
+.Menu {
+     overflow: hidden;
+     background-color: #333;
+}
+.Menu a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.Menu a:hover {
+    background-color: #ddd;
+    color: black;
+ }
+
+
+ /* Primer Tabla*/
+
 .table {
-    background-color: blanchedalmond;
+    background-color:#333;
+    text-decoration: #ddd;
+    border: black;
+    border-style: solid;
 }
 .th {
     border: 2px;
+    color: #ddd;
+    border-style: solid;
 }
+.td {
+    color: #ddd;
+    border: 1px ;
+    border-style: solid;
+}
+/* Imagenes principales*/
 
 img {
     border-radius: 10px;
 }
 h1 {
-    background-image: linear-gradient(grey ,rgb(156, 76, 76));
+    background-image: linear-gradient(grey 35deg ,rgb(19, 15, 15));
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -38,6 +69,7 @@ h1 {
 
 }
 
+
 .th2 {
     padding:50%;
     width: 200px;
@@ -50,5 +82,26 @@ h1 {
  width: 200px;
  height: 200px;
  
+}
+
+article {
+    text-align: center;
+
+}
+
+.columna {
+    
+    width:50% ; 
+    
+
+}
+
+/*Pagina de Peli Favoritas*/
+
+.imagenpeliculas {
+    margin: 5px;
+    border: 1px #ddd;
+    float: left;
+    width: 100px;
 }
 
