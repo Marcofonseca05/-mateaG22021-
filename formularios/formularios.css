@@ -1,21 +1,67 @@
 header{
     text-align: center;
-    background-color: #333;
     color: ivory;
     border-radius: 30px;
     visibility: 20%;
+    
 }
 body {
     background-image: url(http://fotos.subefotos.com/accbaf39394c23cc68f491bfb30639e8o.jpg);
 
     background-size: cover;
+    
+
+}
+h1{
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    font-size: 50px;
 }
 
 form{
-    background-color: rgba(0, 0, 139, 0.356);
 
-    color: burlywood;
     border-radius: 30px;
     text-align: center;
-    font-display: center;
+    padding: 1%;
+}
+input{
+    background-color: rgba(0, 60, 255, 0.356);
+    border: black 2px solid;
+    border-radius: 30px;
+    color: rgb(255, 255, 255) ;
+
+}
+
+
+label {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    border-radius: 30px;
+    border-color: black;
+
+}
+
+button{
+    border-radius: 30px;
+    background-color: rgba(0, 0, 139, 0.356);
+    border: black 2px solid;
+    color:#fff;
+}
+
+article{
+    padding: 2%;
+}
+
+
+footer{
+    background: rgb(0, 0, 0);
+    color: aliceblue;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    padding: 0%;
+}
+
+.Nombre{
+    border: blanchedalmond;
 }
