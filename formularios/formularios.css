@@ -1,3 +1,21 @@
-h1{
+header{
     text-align: center;
+    background-color: #333;
+    color: ivory;
+    border-radius: 30px;
+    visibility: 20%;
+}
+body {
+    background-image: url(http://fotos.subefotos.com/accbaf39394c23cc68f491bfb30639e8o.jpg);
+
+    background-size: cover;
+}
+
+form{
+    background-color: rgba(0, 0, 139, 0.356);
+
+    color: burlywood;
+    border-radius: 30px;
+    text-align: center;
+    font-display: center;
 }
