@@ -3,6 +3,7 @@ body {
     height: auto;
     width: auto;
     background-image:linear-gradient(rgb(58, 54, 54),White );
+    background-repeat: no-repeat;
 }
 
 /* Barra de navegacion*/
@@ -10,7 +11,9 @@ body {
 header {
     text-align: center;
      background-color: #333;
-     padding: 20px;      }
+     padding: 20px;
+           
+    }
 
 .Menu {
      overflow: hidden;
@@ -34,6 +37,7 @@ header {
  /* Primer Tabla*/
 
 .table {
+    margin-left: 20%;
     background-color:#333;
     text-decoration: #ddd;
     border: black;
@@ -52,17 +56,28 @@ header {
 /* Imagenes principales*/
 
 img {
+    margin: 30px;
     border-radius: 10px;
 }
 h1 {
     background-image: linear-gradient(grey 35deg ,rgb(19, 15, 15));
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fc2803;
+}
+h2 {
+    font-family: Arial;
+    font-size: 30px;
+    color: rgb(252,186,3);
 }
 .imag {
     text-align: center;
-}
 
+}
+.imag :hover {
+    transform: scale(1.1);
+    
+}
 .imagenes {
     margin: auto;
 
@@ -99,10 +114,45 @@ article {
 
 /*Pagina de Peli Favoritas*/
 
-.imagenpeliculas {
+.tarjetapelicula{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
     margin: 5px;
-    border: 1px #ddd;
-    float: left;
-    width: 100px;
+
 }
 
+.descri{
+    background-color: rgb(58, 54, 54);
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background-color:#333;
+    color: #ddd;
+    padding: 4px;
+}
+
+/*Pagina de series*/
+
+.tablaseries{
+    background-color: #333;
+    border: #fc2803 solid 2px;
+}
+.series {
+  margin-left: 18%;
+  text-align: center;
+  margin-block-end: 10px;
+}
+.tablaseries img {
+    padding: 30px;
+    margin: auto;
+    height: 200px;
+    width: 200px;
+}
+
+.tablaseries img:hover{
+    transform: scale(1.1);
+    
+}
