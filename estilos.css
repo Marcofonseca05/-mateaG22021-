@@ -1,0 +1,188 @@
+body {
+    margin: auto;
+    height: auto;
+    width: auto;
+    background-image:linear-gradient(rgb(58, 54, 54),White );
+    background-repeat: no-repeat;
+}
+
+/* Barra de navegacion*/
+
+header {
+    text-align: center;
+     background-color: #333;
+     padding: 20px;
+           
+    }
+
+.Menu {
+     overflow: hidden;
+     background-color: #333;
+}
+.Menu a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.Menu a:hover {
+    background-color: #ddd;
+    color: black;
+ }
+
+
+ /* Primer Tabla*/
+
+.table {
+    margin-left: 20%;
+    background-color:#333;
+    text-decoration: #ddd;
+    border: black;
+    border-style: solid;
+}
+.th {
+    border: 2px;
+    color: #ddd;
+    border-style: solid;
+}
+.td {
+    color: #ddd;
+    border: 1px ;
+    border-style: solid;
+}
+/* Imagenes principales*/
+
+img {
+    margin: 30px;
+    border-radius: 10px;
+}
+h1 {
+    background-image: linear-gradient(grey 35deg ,rgb(19, 15, 15));
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fc2803;
+}
+h2 {
+    font-family: Arial;
+    font-size: 30px;
+    color: rgb(252,186,3);
+}
+.imag {
+    text-align: center;
+
+}
+.imag :hover {
+    transform: scale(1.1);
+    
+}
+.imagenes {
+    margin: auto;
+
+
+}
+
+
+
+.th2 {
+    padding:50%;
+    width: 200px;
+    height: 200px;
+    
+}
+
+.td2 {
+ padding:50%;
+ width: 200px;
+ height: 200px;
+ 
+}
+
+article {
+    text-align: center;
+
+}
+
+.columna {
+    
+    width:50% ; 
+    
+
+}
+
+/*Pagina de Peli Favoritas*/
+
+.tarjetapelicula{
+    border-radius: 30px;
+}
+
+.tarjetapelicula:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    
+}
+
+
+.descri{
+    background-color: rgb(58, 54, 54);
+    text-align: center;
+    opacity: 0%;
+}
+.descri:hover{
+    transform: scale(0.55);
+    transition:1s;
+    opacity: 100%;
+}
+
+footer {
+    text-align: center;
+    background-color:#333;
+    color: #ddd;
+    padding: 4px;
+}
+
+/*Pagina de series*/
+
+.vid{
+    opacity:20% ;
+}
+.vid:hover{
+    opacity: 100%;
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+.video{
+    border: rgb(150, 118, 118) solid 20px;
+    border-radius: 20px;
+    margin-top: 200px;
+
+}
+.tablaseries{
+    margin-block-end: 200px;
+    background-color: #333;
+    border: #fc2803 solid 2px;
+}
+.series {
+  margin-left: 18%;
+  text-align: center;
+  margin-block-end: 10px;
+  opacity: 0%;
+}
+.series:hover{
+    opacity: 100%;
+    transform: scale(1.1);
+    transition: 1s;
+}
+.tablaseries img {
+    padding: 30px;
+    margin: auto;
+    height: 200px;
+    width: 200px;
+}
+
+.tablaseries img:hover{
+    transform: scale(1.1);
+    
+}
