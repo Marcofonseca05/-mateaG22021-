@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    text-align: center;
+    padding: 0;
+    margin:0;
+}
+body{
+    background: rgb(34, 32, 32);
+    
+}
+.fondo{
+    background-color: rgba(0, 0, 0, 0.603);
+    background-size: 100vh;
+    height: 100vh;  
+
+}
+header{
+    background-image:url(https://img.microsiervos.com/Peliculas-Ready-Player-One.jpg);
+    background-size: 100vh;
+    height: 100vh;  
+    
+}
+main h1{
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(7, 7, 7) 0px 3px;
+    margin: 10vh;
+}
+
+.contenedornav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px 0px;
+}
+.logotipo{
+    font-family: 'Bebas Neue', cursive;
+    padding: 20px ;
+    font-size: 40px;
+    color: rgb(255, 38, 0);
+    text-shadow: rgb(3, 3, 3) 0px 3px 0px ;
+}
+
+.boton{
+    padding: 20px 0px 0px;
+}
+button{
+    background-color: rgba(255, 0, 0, 0.863);
+    color: blanchedalmond;
+    border-radius: 10px;
+}
+
+.registro{
+    color: rgb(255, 255, 255);
+    text-shadow: black 0px 2px;
+    font-size: 18px;
+}
+/*Contenedor1*/
+
+.contenedor1{
+    display: flex;
+    margin: 10vh;
+}
+.izquierda{
+    color: blanchedalmond;
+    width: 50%;
+}
+.derecha{
+    width: 50%;
+}
+.derecha img{
+    height: 200px;
+}
+/*Contenedor2*/
+.contenedor2{
+    display: flex;
+    margin: 10vh;
+}
+.derecha2{
+    color: aliceblue;
+  width: 50%;
+}
+.izquierda2{
+    width: 50%;
+}
+.izquierda2 img{
+    height: 150px;
+}
+
+footer{ 
+    color: blanchedalmond;
+    background-color: rgba(0, 0, 0, 0.555);
+    margin: 0;
+    height: 10vh; 
+}
+/*Pantalla grande*/
+@media screen and (max-width:1200px){
+    .contenedor2{
+        display: flex;
+        margin: 0vh;
+    }
+    .derecha2{
+      color: aliceblue;
+      width: 50%;
+    }
+    .izquierda2{
+        
+        width:50%;
+    }
+    .izquierda2 img{
+        height: 100px;
+        width: 1;
+        
+    }
+
+ footer{
+    
+    color: blanchedalmond;
+    background-color: rgba(0, 0, 0, 0.452);
+    margin: 0;
+    height: 10vh;
+    
+   
+}
+   
+}
+/*Pantalla Mediana*/
+@media screen and (max-width:737px){
+    .contenedor2{
+        display: block;
+        margin: 10vh;
+    }
+    .derecha2{
+      color: aliceblue;
+      width: 100%;
+    }
+    .izquierda2{
+        
+        width:100%;
+    }
+    .izquierda2 img{
+        height: 100px;
+        
+    }
+   
+    /*Pantalla pequeña*/
+    @media screen and (max-width:400px){
+   
+   
+    /*Contenedor1*/
+    
+    .contenedor1{
+        display: flex;
+        margin: 10vh;
+    }
+    .izquierda{
+        color: aliceblue;
+        width: 90%;
+    }
+    .derecha{
+        width: 50%;
+    }
+    .derecha img{
+        height: 200px;
+    }
+    /*Contenedor*/
+    .contenedor2{
+        display: grid;
+        margin: 10vh;
+    }
+    .derecha2{
+      color: aliceblue;
+      width: 100%;
+    }
+    .izquierda2{
+        
+        width:100%;
+    }
+    .izquierda2 img{
+        height: 90px;
+        
+    }
+}
+}
