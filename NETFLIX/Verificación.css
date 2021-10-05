@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+* {
+    padding: 0%;
+    box-sizing: border-box;
+    text-align: center;
+   
+   
+}
+
+.fondo{
+    background: rgba(0, 0, 0, 0.438);
+    height: 100%;
+}
+.logotipo{
+    font-family: 'Bebas Neue', cursive;
+    padding: 20px ;
+    font-size: 40px;
+    color: rgb(255, 38, 0);
+    text-shadow: rgb(3, 3, 3) 0px 3px 0px ;
+}
+.contenedornav{
+    
+    justify-content: space-between;
+    padding: 50px 0px 0px;
+}
+header{
+    background-image: url(https://josssy.com/wp-content/uploads/2020/01/nominados-mejor-poster-2019-josssy-1200x752.jpg);
+    background-size: 100%;
+    
+}
+.Verificación {
+    width: 400px;
+    background: rgba(0, 0, 0, 0.837);
+    padding: 50px;
+    margin: auto;
+    margin-top: 100vh;
+    border-radius: 4px;
+    font-family: fantasy;
+    color: cornsilk;
+    box-shadow: 7px 13px 37px #000;
+}
+h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.Controls {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.837);
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+}
+label {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+  
+}
+
+.Verificación p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+ }
+ 
+ .Verificación a {
+     color: white;
+     text-decoration: underline;
+  }
+ 
+  .Verificación .botons  {
+      width: 100%;
+      background: rgb(201, 25, 19);
+      border: none;
+      padding: 12px;
+      color: white;
+      margin: 16px 0;
+      font-size: 16px;
+  }
+
+  .uno{
+      font-size: 15px;
+  }
+  
+  footer{ 
+    color: blanchedalmond;
+    background-color: rgb(0, 0, 0);
+    height: 5vh; 
+}
