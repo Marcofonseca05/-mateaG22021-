@@ -11,23 +11,30 @@
     <link rel="stylesheet" href="flexin.css">
 </head>
 <body>
+   
     <header>
         <div class="fondo">
             <div class="contenedornav">
-                <div class="logo">
-                    <h1 class="logotipo">
-                        Flexin
-                    </h1>
-                </div>
-                <div class="boton">
-                    <form method="get" action="login.html">
+                <div class="navbar">
+                    <div class="logo">
+                        <h1 class="logotipo">
+                            Flexin
+                        </h1>
+                    </div>
+                    <select name="lenguage" id="lenguage">
+                        <option value="es">Español</option>
+                        <option value="en">Ingles</option>
+                    </select>
+                    <div class="signin">
+                        <form method="get" action="login.html">
                             
-                        <button class="button" type="submit">
-                            Iniciar secion
-                        </button>
-                    </form>
+                            <button class="button" type="submit">
+                                Iniciar secion
+                            </button>
+                        </form>
+                    </div>
+
                 </div>
-                
             </div>
             <main>
                 <h1>
@@ -37,11 +44,14 @@
                 <h3 class="regis">
                     Todavia no te registraste?
                 </h3>
-                <form method="get" action="registro.html">
-    
-                    <button type="submit">
-                        Registrate
-                    </button>
+                <div class="registercont">
+
+                    <form class="Register" method="get" action="../NETFLIX/register.html">
+        
+                        <button type="submit">
+                            Registrate
+                        </button>
+                </div>
             </div>
             </main>
             
@@ -53,14 +63,14 @@
             <p>Con flexin podees ver peliculas y series en donde quieras y cuando quieras</p>
         </div>
         <div class="derecha">
-            <img src="/Images/59401d89bd0e8b4eeeb603c6.png" alt="">
+            <img src="59401d89bd0e8b4eeeb603c6.png" alt="">
         </div>
     </div>
 
   
     <div class="contenedor2">
         <div class="izquierda2">
-            <img src="/Images/crear-avatares-whatsapp.png" alt="">
+            <img src="crear-avatares-whatsapp.png" alt="">
         </div>
         <div class="derecha2">
             <h3>
@@ -79,19 +89,7 @@
     </div>
 
    
-
-    <div class="social">
-        <a href="https://www.facebook.com/matea.social/">
-            <img src="https://cdn-icons-png.flaticon.com/128/174/174848.png" alt="Facebook">
-        </a>
-        <a href="https://www.instagram.com/matea.social/?hl=es-la">
-         <img src="https://cdn-icons-png.flaticon.com/128/174/174855.png" alt="Instagram">
-     </a>
-     <a href="https://www.youtube.com/watch?v=TWsN2ZrmibU">
-         <img src="https://cdn-icons-png.flaticon.com/128/174/174883.png" alt="Youtube">
-     </a>
-    </div>
-
+    
     <fotter class="footer">
         <div class="footer-info">
             <p>Preguntas? Llama <a href="+598999999">+598999999 (uy)</a></p>
@@ -111,17 +109,29 @@
                 <li class="footer-links_item"><a href="#">Privacidad</a></li>
                 <li class="footer-links_item"><a href="#">Contáctanos</a></li>
                 <li class="footer-links_item"><a href="#">Solo en Flexin</a></li>
-
+                
             </ul>
             <select name="lenguage" id="lenguage">
                 <option value="es">Español</option>
                 <option value="en">Ingles</option>
             </select>
 
-            <p>
-                Flexin Uruguay &copy;Matea
-            </p>
         </div>
+        <p>
+            Flexin Uruguay &copy;Matea
+        </p>
+        
+            <div class="social">
+                <a href="https://www.facebook.com/matea.social/">
+                    <img src="https://cdn-icons-png.flaticon.com/128/174/174848.png" alt="Facebook">
+                </a>
+                <a href="https://www.instagram.com/matea.social/?hl=es-la">
+                 <img src="https://cdn-icons-png.flaticon.com/128/174/174855.png" alt="Instagram">
+             </a>
+             <a href="https://www.youtube.com/watch?v=TWsN2ZrmibU">
+                 <img src="https://cdn-icons-png.flaticon.com/128/174/174883.png" alt="Youtube">
+             </a>
+            </div><br>
     </fotter>
 </body>
 </html>

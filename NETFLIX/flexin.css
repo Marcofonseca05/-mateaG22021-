@@ -13,6 +13,7 @@ body{
     background-color: rgba(0, 0, 0, 0.603);
     background-size: 100vh;
     height: 100vh;  
+   
 
 }
 header{
@@ -28,15 +29,18 @@ main h1{
     margin: 10vh;
 }
 
-.contenedornav{
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 0px 0px;
+.signin{
+    width: 50%;
 }
+.contenedornav{
+    display: -webkit-flex;
+    padding: 20px;
+}
+
 .logotipo{
     font-family: 'Bebas Neue', cursive;
-    padding: 20px ;
     font-size: 40px;
+    padding: 0px;
     color: rgb(255, 38, 0);
     text-shadow: rgb(3, 3, 3) 0px 3px 0px ;
 }
@@ -60,11 +64,18 @@ button:hover{
     background: rgb(230, 27, 20);
     transition: 0.5s;
 }
+.registercont{
+    display: -webkit-inline-flex;
+}
+.Register{
+    width:150px;
+}
 
 .registro{
     color: rgb(255, 255, 255);
     text-shadow: black 0px 2px;
     font-size: 18px;
+    
 }
 /*Contenedor1*/
 
@@ -88,7 +99,7 @@ button:hover{
     margin: 10vh;
 }
 .derecha2{
-    color: aliceblue;
+  color: antiquewhite;
   width: 50%;
 }
 .izquierda2{
@@ -103,12 +114,20 @@ button:hover{
     color: rgba(255, 235, 205, 0.514); 
     margin: 0;
     height: 10vh; 
+   
+}
+.footer-info{
+   margin:0%;
+   
 }
 .footer ul{
     list-style: none;
+    display:flex;
+    
 }
 .footer a{
     text-decoration: none;
+    padding: 20px;
     color: rgba(255, 235, 205, 0.514); 
 }
 .footer a:hover{
@@ -124,7 +143,11 @@ button:hover{
     margin: 0px;
 }
 .social img{
-    width: 3%;
+    width: 5%;    
+}
+.social img:hover{
+    transform: scale(1.4);
+    transition: 0,5s;
 }
 /*Pantalla grande*/
 @media screen and (max-width:1200px){
@@ -133,7 +156,7 @@ button:hover{
         margin: 0vh;
     }
     .derecha2{
-        color: aliceblue;
+        color: blanchedalmond;
       width: 50%;
     }
     .izquierda2{
@@ -161,7 +184,7 @@ button:hover{
         margin: 10vh;
     }
     .derecha2{
-      color: aliceblue;
+      color: blanchedalmond;
       width: 100%;
     }
     .izquierda2{
@@ -174,7 +197,7 @@ button:hover{
     }
    
     /*Pantalla pequeña*/
-    @media screen and (max-width:400px){
+    @media screen and (max-width:300px){
    
    
     /*Contenedor1*/
@@ -184,7 +207,7 @@ button:hover{
         margin: 10vh;
     }
     .izquierda{
-        color: aliceblue;
+        color: blanchedalmond;
         width: 90%;
     }
     .derecha{
@@ -199,7 +222,7 @@ button:hover{
         margin: 10vh;
     }
     .derecha2{
-      color: aliceblue;
+      color:blanchedalmond;
       width: 100%;
     }
     .izquierda2{
