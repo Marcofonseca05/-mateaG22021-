@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 * {
+    margin: 0%;
     padding: 0%;
     box-sizing: border-box;
     text-align: center;
@@ -10,6 +11,7 @@
 .fondo{
     background: rgba(0, 0, 0, 0.438);
     height: 100%;
+    
 }
 .logotipo{
     font-family: 'Bebas Neue', cursive;
@@ -21,13 +23,16 @@
 .contenedornav{
     
     justify-content: space-between;
-    padding: 50px 0px 0px;
+    padding: 10px 0px 0px;
 }
 header{
     background-image: url(https://josssy.com/wp-content/uploads/2020/01/nominados-mejor-poster-2019-josssy-1200x752.jpg);
     background-size: 100%;
     
+    
 }
+
+
 .Verificación {
     width: 400px;
     background: rgba(0, 0, 0, 0.837);
@@ -87,5 +92,6 @@ label {
   footer{ 
     color: blanchedalmond;
     background-color: rgb(0, 0, 0);
-    height: 5vh; 
+    padding: 1%;
+    height: 10vh; 
 }

@@ -1,0 +1,50 @@
+body{
+    background:linear-gradient(black,red,red)
+}
+div.gallery {
+    margin: 2px;
+    border: 1px solid rgba(255, 0, 128, 0.267);
+    width: 250px;
+background: linear-gradient(black,black,rgb(255, 5, 130));
+
+}
+div.gallery:hover {
+    border: 3px solid rgb(255, 200, 20);}
+  
+div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+div.desc {
+    padding: 5px;
+    text-align: center;
+    color: rgb(0, 136, 255);
+  }
+.fila1{
+  display: flex;
+  justify-content: center;
+}
+.fila2{
+  display: flex;
+  justify-content: center;
+}
+
+footer{
+  font-size: 25px;
+  font-family: cursive;
+  color: rgb(255, 238, 0);
+  background: rgb(98, 151, 0) bottom;
+  text-align: center;
+}
+p{
+  font-family: 'Bebas Neue', cursive;
+  padding: 20px ;
+  font-size: 40px;
+  color: rgb(136, 255, 0);
+  text-shadow: rgb(3, 3, 3) 0px 3px 0px ;
+  display: inline-block;
+ }
+ nav{
+ color: blue;
+ }

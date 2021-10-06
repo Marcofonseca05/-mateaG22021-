@@ -42,12 +42,23 @@ main h1{
 }
 
 .boton{
-    padding: 20px 0px 0px;
+    padding:px 0px 0px;
+    
+    
 }
 button{
-    background-color: rgba(255, 0, 0, 0.863);
-    color: blanchedalmond;
-    border-radius: 10px;
+    width: 100%;
+    background: rgb(201, 25, 19);
+    border: rgba(255, 255, 255, 0.589) solid 1px;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    
+}
+button:hover{
+    background: rgb(230, 27, 20);
+    transition: 0.5s;
 }
 
 .registro{
@@ -87,11 +98,33 @@ button{
     height: 150px;
 }
 
-footer{ 
-    color: blanchedalmond;
-    background-color: rgba(0, 0, 0, 0.555);
+/* FOOTER DE TODA LA PAGINA*/
+.footer{ 
+    color: rgba(255, 235, 205, 0.514); 
     margin: 0;
     height: 10vh; 
+}
+.footer ul{
+    list-style: none;
+}
+.footer a{
+    text-decoration: none;
+    color: rgba(255, 235, 205, 0.514); 
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+#lenguage{
+    background-color: rgba(0, 0, 0, 0.74);
+    color: rgba(255, 255, 255, 0.418);
+}
+.social a{
+    justify-content: left;
+    padding: 30px; 
+    margin: 0px;
+}
+.social img{
+    width: 3%;
 }
 /*Pantalla grande*/
 @media screen and (max-width:1200px){
@@ -100,7 +133,7 @@ footer{
         margin: 0vh;
     }
     .derecha2{
-      color: aliceblue;
+        color: aliceblue;
       width: 50%;
     }
     .izquierda2{
@@ -113,17 +146,14 @@ footer{
         
     }
 
- footer{
-    
-    color: blanchedalmond;
-    background-color: rgba(0, 0, 0, 0.452);
-    margin: 0;
-    height: 10vh;
-    
+ 
    
 }
-   
-}
+
+
+
+
+
 /*Pantalla Mediana*/
 @media screen and (max-width:737px){
     .contenedor2{
@@ -180,5 +210,36 @@ footer{
         height: 90px;
         
     }
+}
+
+/*Pagina principal*/
+
+div.gallery {
+    margin: 2px;
+    border: 1px solid rgba(255, 0, 128, 0.267);
+    width: 250px;
+background: linear-gradient(black,black,rgb(255, 5, 130));
+
+}
+div.gallery:hover {
+    border: 3px solid rgb(255, 200, 20);}
+  
+div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+div.desc {
+    padding: 5px;
+    text-align: center;
+    color: rgb(0, 136, 255);
+  }
+.fila1{
+  display: flex;
+  justify-content: center;
+}
+.fila2{
+  display: flex;
+  justify-content: center;
 }
 }
