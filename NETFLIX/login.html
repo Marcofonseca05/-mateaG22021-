@@ -8,57 +8,59 @@
     <link rel="stylesheet" href="register.css">
 </head>
 <body>
-    <div class="login-page">
-        <header class="header">
-            <div class="logotipo">
-                <p>Flexin</p>   
+    <div class="Login-page">
+        <div class="fondo">
+            <header class="header">
+                <div class="logotipo">
+                    <p>Flexin</p>   
+                    
+                </div>
+                <div class="signin">
+                    <h2>Inicia sesión</h2>
+                    <form action="">
+                        <input type="text" name="name" id="name" placeholder="Email o número de teléfono" autocomplete="off">
+                        <input type="password" name="password" id="password" placeholder="Contraseña">
+                        <input type="submit" value="Iniciar sesión">
+                    </form>
+                    <div class="help">
+                        <div class="check">
+                            <input type="checkbox" name="rememer" id="remember">
+                            <label for="remember">Recuérdame</label>
+                        </div>
+                        <div class="need">
+                            <a href="#">¿Nesesitas ayuda?</a>
+                        </div>
+                    </div>
+                    <div class="footer-signin">
+                        <a href="#" class="login"><img src="https://img-premium.flaticon.com/png/128/2504/premium/2504903.png?token=exp=1633560539~hmac=4602461cde440ab8327ea7e5411afe93" class="facebook" alt="icono">iniciar sesión con Facebook</a>
+                        <p class="new">¿Primera vez en Flexin? <a href="registro.html">Suscribete ya</a></p>
+
+                        <p class="protect">
+                            Esta página está protegida por Google reCAPTCHA para comprobar que no eres un robot. La información recopilada por Google reCAPTCHA <a href="#">Leer mas</a></p>
+                    </div>
+                </div>
+            </header>
+
+            <footer class="footer-info">
+                <p>Preguntas? Llama <a href="+598999999">+598999999 (uy)</a></p>
+                <ul class="footer-links">
+                    <li class="footer-links_item"><a href="#">Preguntas frecuentes</a></li>
+                    <li class="footer-links_item"><a href="#">Privacidad</a></li>
+                    <li class="footer-links_item"><a href="#">Preferencias de cookies</a></li>
+                    <li class="footer-links_item"><a href="#">Centro de ayuda</a></li>
+                    <li class="footer-links_item"><a href="#">Preferencias de cookies</a></li>
+                    <li class="footer-links_item"><a href="#">Relaciones con invercionistas</a></li>
+                    <li class="footer-links_item"><a href="#">Terminos de uso</a></li>
+                    <li class="footer-links_item"><a href="#">Información corporativa</a></li>
                 
-            </div>
-            <div class="signin">
-                <h2>Inicia sesión</h2>
-                <form action="">
-                    <input type="text" name="name" id="name" placeholder="Email o número de teléfono" autocomplete="off">
-                    <input type="password" name="password" id="password" placeholder="Contraseña">
-                    <input type="submit" value="Iniciar sesión">
-                </form>
-                <div class="help">
-                    <div class="check">
-                        <input type="checkbox" name="rememer" id="remember">
-                        <label for="remember">Recuérdame</label>
-                    </div>
-                    <div class="need">
-                        <a href="#">¿Nesesitas ayuda?</a>
-                    </div>
-                </div>
-                <div class="footer-signin">
-                    <a href="#" class="login"><img src="https://cdn-icons-png.flaticon.com/128/174/174848.png" class="facebook" alt="icono">iniciar sesión con Facebook</a>
-                    <p class="new">¿Primera vez en Flexin? <a href="registro.html">Suscribete ya</a></p>
 
-                    <p class="protect">
-                        Esta página está protegida por Google reCAPTCHA para comprobar que no eres un robot. La información recopilada por Google reCAPTCHA <a href="#">Leer mas</a></p>
-                </div>
-            </div>
-        </header>
-
-        <div class="footer-info">
-            <p>Preguntas? Llama <a href="+598999999">+598999999 (uy)</a></p>
-            <ul class="footer-links">
-                <li class="footer-links_item"><a href="#">Preguntas frecuentes</a></li>
-                <li class="footer-links_item"><a href="#">Privacidad</a></li>
-                <li class="footer-links_item"><a href="#">Preferencias de cookies</a></li>
-                <li class="footer-links_item"><a href="#">Centro de ayuda</a></li>
-                <li class="footer-links_item"><a href="#">Preferencias de cookies</a></li>
-                <li class="footer-links_item"><a href="#">Relaciones con invercionistas</a></li>
-                <li class="footer-links_item"><a href="#">Terminos de uso</a></li>
-                <li class="footer-links_item"><a href="#">Información corporativa</a></li>
-              
-
-            </ul>
-            <select name="lenguage" id="lenguage">
-                <option value="es">Español</option>
-                <option value="en">Ingles</option>
-            </select>
-
+                </ul>
+                <select name="lenguage" id="lenguage">
+                    <option value="es">Español</option>
+                    <option value="en">Ingles</option>
+                </select>
+            </footer>    
+        </div>
     </div>
 </body>
 </html>
