@@ -50,6 +50,10 @@ main h1{
     
     
 }
+.divisor{
+    padding: 30px;
+    display: flex;
+}
 button{
     width: 100%;
     background: rgb(201, 25, 19);
@@ -127,8 +131,9 @@ button:hover{
 }
 .footer a{
     text-decoration: none;
-    padding: 20px;
-    color: rgba(255, 235, 205, 0.514); 
+    padding: px;
+    color: rgba(255, 235, 205, 0.514);
+     
 }
 .footer a:hover{
     text-decoration: underline;

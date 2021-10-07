@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.logotipo{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    padding: 0px;
+    color: rgb(255, 38, 0);
+    text-shadow: rgb(3, 3, 3) 0px 3px 0px ;
+}
+.header{
+    background-color: black;
+    color: antiquewhite;
+
+}
