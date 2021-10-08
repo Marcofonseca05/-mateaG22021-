@@ -6,6 +6,12 @@
     text-align: center;
 }
 
+body{
+    background-color: #212325;
+}
+.navbar{
+    padding: 20px;
+}
 .logotipo{
     font-family: 'Bebas Neue', cursive;
     font-size: 40px;
@@ -14,7 +20,87 @@
     text-shadow: rgb(3, 3, 3) 0px 3px 0px ;
 }
 .header{
-    background-color: black;
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0.6),rgba(0,0,0,0.455)),url(http://3.bp.blogspot.com/-qdAyiO_0z9w/UnqjT3luSBI/AAAAAAAAAPI/tnGX2IfE5IU/s1600/Caratulas-de-peliculas.jpg);
     color: antiquewhite;
+    background-image: 100%;
 
+}
+
+.Register {
+   
+}
+.Register button {
+    
+    background: rgb(201, 25, 19);
+    border: rgba(255, 255, 255, 0.589) solid 1px;
+    padding:12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    border-radius: 5px;
+}
+ button:hover{
+    background: rgb(230, 27, 20);
+    transition: 0.5s;
+}
+
+.iniciar button{
+    background-color: #e50914;
+    color: #fff;
+    line-height: normal;
+    border-radius: 4px;
+    padding: 7px 17px;
+    font-weight: 400;
+    font-size: 1rem;
+    float: right;
+}
+form select{
+    padding: 7px 17px;
+    background-color: rgba(0, 0, 0, 0.185);
+    color: blanchedalmond;
+    border-radius: 4px;  
+}
+.contenedorprincipal{
+    display:flex;
+   
+}
+.contenedor1{
+    color: blanchedalmond;
+    display:flex;
+    position: sticky;
+}
+.contenedor1 img{
+    width: 40%;
+    
+}
+.contenedor2 img{
+    width: 40%;
+}
+
+.footer{
+    background-color: rgb(0, 0, 0);
+    display: block;
+}
+.footer-info{
+    padding: 110px;
+}
+.footer-links{
+  display: flex;
+  text-size-adjust: 100%;
+  padding: 1rem;
+  
+}
+.footer-links ul {
+    padding: 70px;
+}
+.footer-links li{
+  list-style-type: none;
+}
+.footer-links a{
+    text-decoration: none;
+    color: gray;
+}
+.footer-links a:hover{
+    text-decoration: underline;
+    color: rgb(255, 0, 0);
 }
