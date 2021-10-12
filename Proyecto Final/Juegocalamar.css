@@ -1,0 +1,282 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+
+
+
+@media screen and (max-width:700px){
+    header .logo {
+        margin-bottom: 10px;
+        font-size: 30px;
+    }
+    header .contenedor{
+        flex-direction: column;
+        text-align: center;
+    }
+    #series{
+        width: 50%;
+        display:grid;
+    }
+    .Imagen{
+        width: 100px;
+        height: 100px;
+    }
+ }
+
+.contenedor{
+    width: 90%;
+    margin: auto;
+}
+header{
+    background-color: black;
+    padding: 30px 0;
+}
+header .contenedor{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+
+header .logo{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: normal;
+    font-size: 40px;
+    color: rgb(255, 38, 0);
+    text-shadow: rgb(3, 3, 3) 0px 3px 0px ;
+}
+
+header nav a{
+    
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-right: 20px;
+    position: relative;
+}
+
+header nav a:hover{
+    text-decoration: none;
+    color: rgb(220, 20, 60);
+    background: rgb(213, 201, 201);
+}
+
+header nav a:before    {
+    display: block;
+    content: '' ;
+    width: 0%;
+    background: rgba(237, 7, 7, 0.727);
+    height: 3px;
+    left: 0;
+    position: absolute;
+    transition:  1s;
+}
+
+a:hover::before {
+    width: 100%;
+}
+
+.links{
+    display:flex;
+    
+}
+.conten{
+    background-color: black;
+}
+section{
+    padding:00px;
+}
+.fondo{
+    background: rgba(0, 0, 0, 0.438);
+}
+
+h1.calamargame {
+    height: 30px;
+    text-align: left;
+    text-shadow: #333 4px 3px;
+    color: rgb(237, 96, 53);
+    background-size: cover;
+    text-decoration-line: underline;
+}
+
+.imagenfondo {
+     
+    opacity: 0,6;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p {
+    color: white;
+    background-size: cover;
+}
+.botons  {
+    border-radius: 0.31em;
+    padding: 0.93em 1.87em;
+    background: rgba(2, 2, 2, 0.583);
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 1.25em;
+    transition: 3s ease all;
+   
+}
+svg {
+    color: white;
+}
+
+.botons:hover {
+    background: #fff ;
+    color: #000;
+}
+ .botons:hover {
+    background: #fff ;
+    color: #000;
+}
+
+ .botons i {
+    margin-right: 1.25em;
+}
+ .botons i {
+    margin-right: 1.25em;
+}
+
+
+
+.fondo_miniatura {
+    width: 100%;
+    position: center;
+}
+
+.imagen {
+    padding: 0px;
+    display: flex;
+    width: 100px;
+    
+}
+h1.Trailer {
+    height: 30px;
+    text-shadow: #333 4px 3px;
+    color: rgb(237, 96, 53);
+    background-size: cover;
+    text-decoration-line: underline;
+}
+
+div.videotrailer {
+    float: none;
+    border: 5px rgba(182, 33, 33, 0.863);
+    box-shadow: 0px 0px 10px silver;
+    justify-content: center;
+    width: 820px;
+ 
+   }
+   div.videotrailer:hover {
+    border: 4px solid rgba(53, 49, 48, 0.679);
+    }
+
+    div.desc {
+      padding: 6px;
+}
+.calamar{
+    font-size: 16px;
+    min-height: 40.62em;
+    color: blanchedalmond;
+    background: linear-gradient(rgba(88, 40, 40, 0.439) 8%, black 100%),url(https://loqueva.com/wp-content/uploads/2021/10/el-juego-del-calamar-serie-netflix-3-scaled.jpg);
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 3,123em;
+    display: flex;
+    align-items: end;
+
+
+}
+.calamar .contenedor{
+    margin: 0 auto;
+    margin-bottom: 6,25em;
+
+}
+.calamar .titulo{
+    font-weight: 600px;
+    font-size: 13,12em;
+    margin-bottom: 0,4em;
+}
+
+.calamar .sinopsis{
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 1.75em;
+    max-width: 50%;
+    margin-bottom: 1.25em;
+
+}
+
+.calamar .boton{
+    background: rgba(0, 0, 0, 0.37);
+    border: none;
+    border-radius: 0.31em;
+    padding: 0.93em 1.87em;
+    color: blanchedalmond;
+    margin-right: 1.25em;
+    cursor: pointer;
+    transition: .3s ease all;
+    font-size: 1.25em;
+
+}
+/*Pie de pagina*/
+.pie{
+    width: 100%;
+    background-color: black;
+}
+.footer{ 
+    padding-top: 200px;
+    text-align: center;
+    color: rgba(255, 235, 205, 0.514); 
+    margin: 0;
+    height: 10vh; 
+   
+}
+.footer-info{
+   margin:0%;
+   
+}
+.footer ul{
+    display: inline-flex;
+    list-style: none;
+    align-items: center;
+    
+}
+.footer-links{
+    padding: 70;
+    min-height: 10px;
+}
+.footer a{
+    text-decoration: none;
+    padding: 10px;
+    color: rgba(255, 235, 205, 0.514);
+     
+}
+.footer a:hover{
+    text-decoration: underline;
+    color: red;
+}
+#lenguage{
+    background-color: rgba(0, 0, 0, 0.74);
+    color: rgba(255, 255, 255, 0.418);
+}
+.social a{
+    
+    padding: 30px; 
+    margin: 0px;
+}
+.social img{
+    width:20px;    
+}
+.social img:hover{
+    transform: scale(1.4);
+    transition: 0,5s;
+}
