@@ -1,14 +1,14 @@
-/*/ Valor absoluto
+/**Valor absoluto */
 
 var num = parseInt(prompt ("Ingrese un numero"));
 
 if (num >=0) {
     document.write( num);
 } else  {
-    document.write(  num *-1 + );
+    document.write( num *-1  );
 }
-/*/
-/*/El mayor
+
+/**El mayor */
 
 var num1 =parseInt(prompt ("Ingrese un numero"));
 var num2 =parseInt(prompt ("Ingrese un numero"));
@@ -19,14 +19,14 @@ if (num1 > num2) {
     alert(num2)
 }
 
-/*/
 
-/*etapas de lavida */
-/*/
+
+/*etapas de la vida */
+
 var edad = parseInt(prompt ("ingresar edad"));
 
 if (edad >= 0 && edad <= 2) {
-    alert("bebe")
+    alert("bebe" )
 } 
 else if (edad > 2 && edad < 10){
     alert("niño")
@@ -51,20 +51,85 @@ else if (edad >= 75 && edad < 100){
 }
 /*/
 /* Socio del club*/
-/**
+
 var edad = parseInt(prompt ("Ingrese edad del socio"));
 var carne = confirm("tenes carnet al dia?" );
 
 if (edad >= 25 && carne== true) {
-    document.write("Puede votar")
+    document.write("Puede votar" +"<br>")
 }
 else {
-    document.write("no puede votar")
+    document.write("no puede votar" +"<br>")
 }
-*/
+
+
+/**Multiplo comun */
+
+var numero = parseInt(prompt ("ingrese su numero"))
 
 
 
+if(( numero % 3 ) == 0){
 
+	document.write(numero + ' es multiplo de 3');
+    
+}else{
+
+	document.write(numero + ' no es multiplo de 3' +"<br>");
+
+}
+if(( numero % 7 ) == 0){
+
+	document.write(numero + ' es multiplo de 7');
+    
+}else{
+
+	document.write(numero + ' no es multiplo de 7');
+
+}
+
+/**Dia de la Semana */
+
+var dia = parseInt(prompt ("ingrese su numero"))
+
+switch (dia){
+    case 1:
+        alert("Lunes");
+        break;
+    case 2:
+        alert("Martes");
+        break;
+    case 3:
+        alert("Miercoles");
+        break;
+    case 4:
+        alert("Jueves");
+        break;
+    case 5:
+        alert("Viernes");
+        break;
+    case 6:
+        alert("Sabado");
+        break;
+    case 7:
+        alert("Domingo");
+        break;
+    
+
+}
+
+/**Boletos */
+
+var edad = parseInt(prompt ("ingresar edad"));
+
+if (edad <= 12 ) {
+    alert("no paga boleto" )
+} 
+else if ( edad >= 70 ){
+    alert("No paga boleto")
+}
+
+if (edad > 12 && edad < 70 )
+    alert("Debe pagar boleto")
 
 
