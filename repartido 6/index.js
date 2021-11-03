@@ -1,0 +1,1 @@
+var elementSpan= document.getSelection("span");
