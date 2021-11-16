@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home | Flexin Uruguay </title>
+  <!--Bootsrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="main.css" />
+  
+  
+</head>
+
+<body>
+  <!-- navbar -->
+  <div class="nav">
+    <div class="nav__left">
+      <h2 class="nav_logo">Flexin</h2>
+    </div>
+    <div class="buscador">
+
+      <form id="form">
+        <input type="text" placeholder="Search" id="search" class="search">
+
+    </div>
+    
+    
+    <div class="nav__right">
+      
+      <span class="cargar" id="cargar"></span >
+      <a="">
+      <span id="result" style="color: aliceblue;"></span></a>
+       
+      <img src="avatar.png" class="nav_avatar" alt="">
+    </div>
+  </div>
+ 
+  <!-- banner -->
+  <header id="banner">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+           
+          <img src="https://occ-0-618-1740.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABTfa35EQL1WqqpiB_LFUBAFtEPdZUQaNIikRQzmOwHWQ3dAMw_OwzFUAOGkC9fUIV35Ck15zm29_-mabwy8iWtclQMLx.jpg?r=b2e" class="d-block w-100" alt="..." 
+          >
+       
+          <div class="carousel-caption d-none d-md-block">
+              <h5>Sky Rojo</h5>
+              <p>Tras un desgraciado giro del destino, tres mujeres atormentadas por el pasado huyen de un burdel y arriesgan la vida para escapar de un proxeneta y sus secuaces.
+              </p>
+            </div>
+          
+         
+        </div>
+        <div class="carousel-item">
+          <img src="https://occ-0-618-1740.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABWR8fK5vnqgNOrZT7iybIzJlOT2fmm0F2TxbOzOle1Vx29SmxH_9NMuEssycP34COk25QpqIcJPJvHumIgkKBHocGm7u.jpg?r=2bc" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Son como Niños></h5>
+            <p>Después de 30 años, cinco amigos se reúnen en una casa del lago para llorar la pérdida de su antiguo entrenador de básquet y vuelven a descubrir la alegría de la niñez.</p>
+          </div>
+        
+        </div>
+        <div class="carousel-item">
+          <img src="https://occ-0-618-1740.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABXlHxYgK-C_n-jwOHjwK_ms8y6G_CKGCX_5fGKknStPcxAw86Ohoomcy8S88WVfHTAGVzXY_ZPdnT4XYb5GFra58K2Uc.jpg?r=114"  class="d-block w-100" alt="...">
+          <div class="carousel-caption d- d-md-block">
+            <h5>Bajo Cero</h5>
+            <p>Cuando atacan un vehículo que transporta prisioneros, el policía a cargo debe enfrentarse a los de afuera y a los de adentro, además de la gélida temperatura.</p>
+          </div>
+          
+        
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+     
+  </header>
+
+  <!--Botones-->
+  <!-- row -->
+  <div id="headrow">
+    <div class="row">
+      <h2 class="row__title"></h2>
+      <div class="row__posters"></div>
+    </div>
+  </div>
+  <!--Botones de genero (FILTROS)-->
+  <main id="main">
+    <div class="movie">
+        <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/jXex0xZGjkuR47VGbDuKhI5GfGj.jpg" alt="">Image
+
+        <div class="movie-info">
+            <h3>Movie Title</h3>
+            <span class="green">9.8</span>
+        </div>
+
+        <div class="overview">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus tempore tempora, nam cumque nemo laborum sapiente iste quas mollitia excepturi dolorem quibusdam, harum eveniet laudantium fuga magnam libero alias similique!
+        </div>
+    </div>
+    <div class="movie">
+        <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/jXex0xZGjkuR47VGbDuKhI5GfGj.jpg" alt="">Image
+
+        <div class="movie-info">
+            <h3>Movie Title</h3>
+            <span class="green">9.8</span>
+        </div>
+
+        <div class="overview">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus tempore tempora, nam cumque nemo laborum sapiente iste quas mollitia excepturi dolorem quibusdam, harum eveniet laudantium fuga magnam libero alias similique!
+        </div>
+    </div>
+    <div class="movie">
+        <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/jXex0xZGjkuR47VGbDuKhI5GfGj.jpg" alt="Image">
+
+        <div class="movie-info">
+            <h3>Movie Title</h3>
+            <span class="green">9.8</span>
+        </div>
+
+        <div class="overview">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus tempore tempora, nam cumque nemo laborum sapiente iste quas mollitia excepturi dolorem quibusdam, harum eveniet laudantium fuga magnam libero alias similique!
+        </div>
+    </div>
+</main>
+
+<main id="main2">
+  <div class="generos" id="generos">
+   
+    <div class="accion" id="accion">
+      <h1>Accion</h1>
+    </div>
+    
+  </div>
+</main>
+<script src="script.js"></script>
+  <script>
+    window.addEventListener("scroll", function () {
+
+      var nav = document.querySelector(".nav");
+      nav.classList.toggle("active", window.scrollY > 0);
+    })
+  </script>
+  <br>
+  <fotter class="footer">
+    <div class="divisor">
+      <div class="footer-info">
+        <p>Preguntas? Llama <a href="+598999999">+598999999 (UY)</a></p>
+        <ul class="footer-links">
+
+          <div class="21">
+            <li class="footer-links_item"><a href="#">Preguntas frecuentes</a></li>
+            <li class="footer-links_item"><a href="#">Prensa</a></li>
+            <li class="footer-links_item"><a href="#">Formas de ver</a></li>
+            <li class="footer-links_item"><a href="#">Preferencias de cookies</a></li>
+            <li class="footer-links_item"><a href="#">Prueba de velocidad</a></li>
+          </div>
+          <div class="2">
+            <li class="footer-links_item"><a href="#">Centro de ayuda</a></li>
+            <li class="footer-links_item"><a href="#">Relaciones con invercionistas</a></li>
+            <li class="footer-links_item"><a href="#">Terminos de uso</a></li>
+            <li class="footer-links_item"><a href="#">Información corporativa</a></li>
+            <li class="footer-links_item"><a href="#">Avisos legales</a></li>
+          </div>
+          <div class="3">
+            <li class="footer-links_item"><a href="#">Cuenta</a></li>
+            <li class="footer-links_item"><a href="#">Empleo</a></li>
+            <li class="footer-links_item"><a href="#">Privacidad</a></li>
+            <li class="footer-links_item"><a href="#">Contáctanos</a></li>
+            <li class="footer-links_item"><a href="#">Solo en Flexin</a></li>
+          </div>
+
+        </ul>
+
+      </div>
+      <p>
+        &copy;Flexin Uruguay by Matea 2021
+      </p>
+      <div class="social">
+        <a href="https://www.facebook.com/matea.social/">
+          <img src="https://cdn-icons-png.flaticon.com/128/174/174848.png" alt="Facebook">
+        </a>
+        <a href="https://www.instagram.com/matea.social/?hl=es-la">
+          <img src="https://cdn-icons-png.flaticon.com/128/174/174855.png" alt="Instagram">
+        </a>
+        <a href="https://www.youtube.com/watch?v=TWsN2ZrmibU">
+          <img src="https://cdn-icons-png.flaticon.com/128/174/174883.png" alt="Youtube">
+        </a>
+      </div><br>
+
+    </div>
+  </fotter>
+  <script src=""></script>
+</body>
+
+</html>
